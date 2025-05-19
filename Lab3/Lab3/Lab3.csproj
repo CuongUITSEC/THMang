@@ -52,6 +52,42 @@
     <Compile Include="Bai2.Designer.cs">
       <DependentUpon>Bai2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bai3-client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai3-client.Designer.cs">
+      <DependentUpon>Bai3-client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai3-server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai3-server.Designer.cs">
+      <DependentUpon>Bai3-server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai3.Designer.cs">
+      <DependentUpon>Bai3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai4.Designer.cs">
+      <DependentUpon>Bai4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai4_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai4_client.Designer.cs">
+      <DependentUpon>Bai4_client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai4_server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai4_server.Designer.cs">
+      <DependentUpon>Bai4_server.cs</DependentUpon>
+    </Compile>
     <Compile Include="Client.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +116,24 @@
     </Compile>
     <EmbeddedResource Include="Bai2.resx">
       <DependentUpon>Bai2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai3-client.resx">
+      <DependentUpon>Bai3-client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai3-server.resx">
+      <DependentUpon>Bai3-server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai3.resx">
+      <DependentUpon>Bai3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai4.resx">
+      <DependentUpon>Bai4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai4_client.resx">
+      <DependentUpon>Bai4_client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai4_server.resx">
+      <DependentUpon>Bai4_server.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Client.resx">
       <DependentUpon>Client.cs</DependentUpon>
