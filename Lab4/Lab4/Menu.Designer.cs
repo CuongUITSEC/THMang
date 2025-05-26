@@ -39,7 +39,7 @@
             this.btnExercise1.Name = "btnExercise1";
             this.btnExercise1.Size = new System.Drawing.Size(200, 40);
             this.btnExercise1.TabIndex = 0;
-            this.btnExercise1.Text = "Exercise 1";
+            this.btnExercise1.Text = "Bài 1";
             this.btnExercise1.UseVisualStyleBackColor = true;
             this.btnExercise1.Click += new System.EventHandler(this.btnExercise1_Click);
             // 
@@ -49,7 +49,7 @@
             this.btnExercise2.Name = "btnExercise2";
             this.btnExercise2.Size = new System.Drawing.Size(200, 40);
             this.btnExercise2.TabIndex = 1;
-            this.btnExercise2.Text = "Exercise 2";
+            this.btnExercise2.Text = "Bài 2";
             this.btnExercise2.UseVisualStyleBackColor = true;
             this.btnExercise2.Click += new System.EventHandler(this.btnExercise2_Click);
             // 
@@ -59,7 +59,7 @@
             this.btnExercise3.Name = "btnExercise3";
             this.btnExercise3.Size = new System.Drawing.Size(200, 40);
             this.btnExercise3.TabIndex = 2;
-            this.btnExercise3.Text = "Exercise 3";
+            this.btnExercise3.Text = "Bài 3";
             this.btnExercise3.UseVisualStyleBackColor = true;
             this.btnExercise3.Click += new System.EventHandler(this.btnExercise3_Click);
             // 
@@ -69,11 +69,11 @@
             this.btnExercise4.Name = "btnExercise4";
             this.btnExercise4.Size = new System.Drawing.Size(200, 40);
             this.btnExercise4.TabIndex = 3;
-            this.btnExercise4.Text = "Exercise 4";
+            this.btnExercise4.Text = "Bài 4";
             this.btnExercise4.UseVisualStyleBackColor = true;
             this.btnExercise4.Click += new System.EventHandler(this.btnExercise4_Click);
             // 
-            // MenuForm
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -82,9 +82,10 @@
             this.Controls.Add(this.btnExercise2);
             this.Controls.Add(this.btnExercise3);
             this.Controls.Add(this.btnExercise4);
-            this.Name = "MenuForm";
+            this.Name = "Menu";
             this.Text = "Menu";
             this.ResumeLayout(false);
+
         }
     }
 }

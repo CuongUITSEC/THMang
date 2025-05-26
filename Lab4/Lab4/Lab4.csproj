@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.12.1.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.12.1\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -78,11 +81,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SourceViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="Exercise1Form.resx">
       <DependentUpon>Exercise1Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercise2Form.resx">
       <DependentUpon>Exercise2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercise3Form.resx">
+      <DependentUpon>Exercise3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercise4Form.resx">
+      <DependentUpon>Exercise4Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -92,7 +107,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
